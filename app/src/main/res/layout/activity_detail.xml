@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#465867"
+    android:orientation="vertical"
+    tools:context="com.bas.myloginapplication.DetailActivity">
+
+
+    <LinearLayout
+        android:id="@+id/bas"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:background="#C3C1CE">
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/wiriyapat1"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wiriyapat  singnoi"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="สาขา วิศวกรรมซอฟต์แวร์"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="วิชา"
+            />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bas1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:background="#ADC2E2"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/dara1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="น่ารัก สดใส "
+            android:textSize="30sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bas2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:background="#ABB4E2"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/dara2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="สวยใส แอ๊บแบ้ว"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+   <LinearLayout
+        android:id="@+id/bas3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:background="#9594BF"
+       android:orientation="horizontal">
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/dara3"
+        />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="สวย คม "
+           android:textSize="30sp"/>
+   </LinearLayout>
+
+
+
+
+</LinearLayout>
